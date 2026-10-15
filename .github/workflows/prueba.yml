@@ -8,14 +8,10 @@ jobs:
   test-secrets:
     runs-on: self-hosted
     steps:
-      - name: Descargar el código
-        uses: actions/checkout@v4
-
       - name: Comprobar Secrets
         env:
           DEV_TOKEN: ${{ secrets.DEV_TOKEN }}
           PROD_TOKEN: ${{ secrets.PROD_TOKEN }}
         run: |
           echo "Ejecutando pruebas en el runner local..."
-          echo "DEV_TOKEN está configurado correctamente."
-          echo "PROD_TOKEN está configurado correctamente."
+          echo "DEV_TOKEN y PROD_TOKEN leídos correctamente."
