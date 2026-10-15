@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "AlvaroDoblas/Segundoproyecto-colaborar",
+  "pipelineDirectory": "Segundoproyecto-colaborar",
+  "workspaceDirectory": "Segundoproyecto-colaborar\\Segundoproyecto-colaborar",
+  "repositories": {
+    "AlvaroDoblas/Segundoproyecto-colaborar": {
+      "repositoryPath": "Segundoproyecto-colaborar\\Segundoproyecto-colaborar",
+      "lastRunOn": "10/15/2026 12:25:46 +02:00"
+    }
+  },
+  "lastRunOn": "10/15/2026 13:09:47 +02:00"
+}
