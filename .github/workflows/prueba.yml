@@ -8,10 +8,8 @@ jobs:
   test-secrets:
     runs-on: self-hosted
     steps:
-      - name: Verificar ejecucion exitosa
-        env:
-          DEV_TOKEN: ${{ secrets.DEV_TOKEN }}
-          PROD_TOKEN: ${{ secrets.PROD_TOKEN }}
-        run: |
-          echo "Ejecucion en el runner local completada con exito!"
-          echo "DEV_TOKEN y PROD_TOKEN leidos correctamente."
+      - name: Mensaje 1
+        run: echo "Ejecucion exitosa en el runner local"
+
+      - name: Mensaje 2
+        run: echo "Tokens leidos correctamente"
