@@ -7,9 +7,12 @@ on:
 jobs:
   test-secrets:
     runs-on: self-hosted
+    defaults:
+      run:
+        shell: cmd
     steps:
-      - name: Mensaje 1
-        run: echo "Ejecucion exitosa en el runner local"
+      - name: Paso 1 - Mensaje
+        run: echo Ejecucion exitosa en el runner local
 
-      - name: Mensaje 2
-        run: echo "Tokens leidos correctamente"
+      - name: Paso 2 - Verificacion
+        run: echo Tokens verificados correctamente
