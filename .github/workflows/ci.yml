@@ -41,7 +41,7 @@ jobs:
         shell: bash
         env:
           TOKEN: ${{ secrets.DEV_TOKEN }}
-          LOCAL_DEV_TOKEN: ${{ secrets.LOCAL_DEV_TOKEN }}
+          LOCAL_DEV_TOKEN: ${{ secrets.DEV_TOKEN }}
         run: |
           if [ "$TOKEN" = "$LOCAL_DEV_TOKEN" ]; then
             echo "CI: validación de desarrollo correcta ✅"
