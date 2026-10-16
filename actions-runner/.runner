@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 2,
+  "agentName": "PORTATILKATANA1",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus9.actions.githubusercontent.com/JexvfovjhdI2Ln3ZH7ktow7ADE3wwGpys1HUwIDOIIO6Y66shP/",
+  "gitHubUrl": "https://github.com/AlvaroDoblas/Segundoproyecto-colaborar",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}
